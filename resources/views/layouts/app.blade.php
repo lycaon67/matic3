@@ -18,6 +18,69 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #fff;
+        }
+
+        .box{
+            width: 300px;
+            background: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .box h1 {
+            color: black;
+            font-weight: 700;
+            margin-bottom: -20px;
+        }
+        .box h4 {
+            color: grey;
+            font-weight: 500;
+        }
+
+        .box input[type="email"],.box input[type="password"]{
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            background: none;
+            border: 2px solid #3498db;
+            width: 200px;
+            border-radius: 24px;
+            padding: 12px 10px;
+            color: white;
+            outline: none;
+            transition: .25s;
+        }
+
+        .box input[name="email"]:focus,.box input[type="password"]:focus{
+            /* width: 250px; */
+            border-color: #2ecc71!important;
+        }
+
+        .box input[type="submit"]{
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            background: #3498db;
+            border: 2px solid #3498db;
+            width: 150px;
+            border-radius: 24px;
+            padding: 12px 10px;
+            color: white;
+            outline: none;
+            transition: .25s;
+        }
+        .box input[type="submit"]:hover{
+            border-color: #2ecc71;
+        }
+    </style>
 </head>
 <body>
     <div id="app">

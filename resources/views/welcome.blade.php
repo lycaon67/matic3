@@ -76,9 +76,9 @@
         <form class="box">
             <h1>Matik</h1>
             <h4>Home Automation System</h4>
-			<input type="username" name="username" placeholder="Username">
-			<input type="password" name="password" placeholder="Password">
-			<input type="submit" name="submit" value="Login">
+			{{-- <input type="username" name="username" placeholder="Username"> --}}
+			{{-- <input type="password" name="password" placeholder="Password"> --}}
+			{{-- <input type="submit" name="submit" value="Login"> --}}
 		</form>
     </body>
 </html>
